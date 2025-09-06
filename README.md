@@ -12,7 +12,6 @@ A simple Command Line Interface (CLI) tool for:
   Based on length, combination of uppercase/lowercase letters, digits, special characters, and avoiding very common words, gives your password a score out of 6.
 
 - **Breach Check**  
-  Using the well-known [`Have I Been Pwned`](https://haveibeenpwned.com) API, displays the number of times the password has been leaked in the past.
 ---
 ## 📦 Installation
 **From PyPI**  
@@ -22,7 +21,6 @@ pip install paz-cli
 
 **From Source**
 ```bash
-git clone https://github.com/MahdiMirshafiee/password-analyzer-cli
 cd password-analyzer-cli
 python3 -m venv venv
 source venv/bin/activate       # Linux/macOS
@@ -71,3 +69,4 @@ git push origin feature/your-feature-name
 ---
 ## 📄 License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+
