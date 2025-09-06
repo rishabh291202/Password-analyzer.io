@@ -1,0 +1,7 @@
+click>=8.0
+rich>=10.0
+pyhibp>=4.2.0
+
+# برای اجرای تست:
+pytest>=8.0
+pytest-cov>=6.2.1
